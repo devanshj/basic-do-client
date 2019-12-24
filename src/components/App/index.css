@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:focus {
+	outline: none;
+}
+
+html, body {
+	height: 100%;
+	min-width: 0px;
+}
+
+body {
+	background-color: #eeeeee;
+	font-family: "Lato";
+	user-select: none;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+}
+
+input, textarea, button {
+	font: inherit;
+}
+
+::selection {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+#app {
+	width: 250px;
+	height: 380px;
+	background-color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}

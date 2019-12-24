@@ -3,9 +3,19 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@types/gapi": "0.0.39",
+		"@types/gapi.auth2": "0.0.51",
+		"@types/gapi.client": "^1.0.1",
+		"@types/json-patch": "0.0.30",
+		"@types/lodash.set": "^4.3.6",
 		"@types/react": "^16.9.17",
 		"@types/react-dom": "^16.9.4",
+		"lodash.set": "^4.3.2",
+		"mobx": "^5.15.1",
+		"mobx-keystone": "^0.28.4",
+		"mobx-react-lite": "^1.5.2",
 		"react": "^16.12.0",
+		"react-contenteditable": "^3.3.3",
 		"react-dom": "^16.12.0"
 	},
 	"devDependencies": {
